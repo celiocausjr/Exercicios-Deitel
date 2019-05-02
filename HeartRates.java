@@ -1,4 +1,4 @@
-// Classe para Cálculo da Frequência Cardíaca Alvo
+// Classe para Calculo da Frequencia Cardiaca Alvo
 public class HeartRates
 {
 	// Atributos
@@ -18,7 +18,7 @@ public class HeartRates
 	private double faixaMin;
 	
 	
-	// Métodos Get
+	// Metodos Get
 	
 	public String getNome() {
 		return nome;
@@ -58,7 +58,7 @@ public class HeartRates
 	}
 	
 	
-	// Métodos Setters
+	// Metodos Setters
 	
 	public void setNome(String nome) {
 		this.nome = nome;
@@ -111,7 +111,7 @@ public class HeartRates
 	}
 	
 		
-	// método Calcular Idade
+	// Metodo Calcular Idade
 	
 	public int calculaIdade(){
 		if (this.anoAtual > this.anoNasc) {
@@ -128,14 +128,14 @@ public class HeartRates
 	}
 	
 	
-	// método para calcular a FCM
+	// Metodo para calcular a FCM
 	
 	public int calculaFCM() {
 		this.freqMax = 220 - this.idade;
 		return this.freqMax;
 	}
 	
-	// método para calcular a faixa de frequêcia
+	// Metodo para calcular a faixa de frequecia
 	
 	public void calculaFaixafreq() {
 		this.faixaMax = this.freqMax * 0.85;
